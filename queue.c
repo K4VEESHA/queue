@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define size 3;
+#define size 3
 
-    int arr[];
+    int arr[size];
     unsigned int front = 0;
     int rear = -1;
 
     int o = 1;
+
+void enqueue(void);
+int dequeue(void);
+void peek(void);
 
 
 
